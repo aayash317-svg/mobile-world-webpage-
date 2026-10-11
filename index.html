@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  
+  <!-- Primary Meta Tags -->
+  <title>Mobile World Sales &amp; Service — Multi-Brand Smartphones, Verified Accessories &amp; Care</title>
+  <meta name="description" content="Discover mobile phones, everyday accessories, and helpful service — all at Mobile World Sales &amp; Service in Gandhipuram, Tamil Nadu. Official showroom and express device care." />
+  <meta name="theme-color" content="#123F35" />
+
+  <!-- Favicon using official emblem -->
+  <link rel="icon" type="image/png" href="assets/images/shop/emblem_logo.png" />
+
+  <!-- Google Fonts Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ==========================================================================
+       A. Navigation Header
+       ========================================================================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-container">
+      <!-- Brand Logo / Emblem -->
+      <a href="#hero" class="brand-wrap" id="brandLogoLink" aria-label="Mobile World Sales and Service Home">
+        <img src="assets/images/shop/emblem_logo.png" alt="Mobile World Official Emblem" class="brand-emblem" width="44" height="44" />
+        <div class="brand-text">
+          <span class="brand-title">Mobile World</span>
+          <span class="brand-subtitle">Sales &amp; Service</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu (Animated Underline) -->
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <a href="#hero" class="nav-link active" id="navHome">Home</a>
+        <a href="#about" class="nav-link" id="navAbout">About Us</a>
+        <a href="#categories" class="nav-link" id="navProducts">Products</a>
+        <a href="#services" class="nav-link" id="navServices">Services</a>
+        <a href="#store" class="nav-link" id="navStore">Visit Our Store</a>
+      </nav>
+
+      <!-- Desktop Action CTA -->
+      <div class="nav-actions">
+        <a href="https://mobile-world-5p9j.onrender.com/signin" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" id="navStoreCta">
+          <span>Explore Online Store</span>
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+            <polyline points="15 3 21 3 21 9"></polyline>
+            <line x1="10" y1="14" x2="21" y2="3"></line>
+          </svg>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="mobile-toggle-btn" id="mobileMenuToggle" aria-label="Open Navigation Menu" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-nav-drawer" id="mobileNavDrawer" aria-hidden="true">
+    <div class="mobile-drawer-content">
+      <div>
+        <div class="mobile-drawer-header">
+          <div class="brand-wrap">
+            <img src="assets/images/shop/emblem_logo.png" alt="Mobile World Logo" class="brand-emblem" width="38" height="38" />
+            <div class="brand-text">
+              <span class="brand-title">Mobile World</span>
+              <span class="brand-subtitle">Sales &amp; Service</span>
+            </div>
+          </div>
+          <button class="mobile-drawer-close" id="mobileMenuClose" aria-label="Close navigation menu">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+
+        <nav class="mobile-drawer-links" aria-label="Mobile Navigation">
+          <a href="#hero" class="mobile-drawer-link">Home</a>
+          <a href="#about" class="mobile-drawer-link">About Us</a>
+          <a href="#categories" class="mobile-drawer-link">Products</a>
+          <a href="#services" class="mobile-drawer-link">Services</a>
+          <a href="#store" class="mobile-drawer-link">Visit Our Store</a>
+        </nav>
+      </div>
+
+      <div class="mobile-drawer-footer">
+        <a href="https://mobile-world-5p9j.onrender.com/signin" target="_blank" rel="noopener noreferrer" class="btn btn-primary" id="drawerStoreCta">
+          <span>Explore Online Store</span>
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+            <polyline points="15 3 21 3 21 9"></polyline>
+            <line x1="10" y1="14" x2="21" y2="3"></line>
+          </svg>
+        </a>
+        <div style="font-size: 0.78rem; color: var(--color-text-secondary); text-align: center;">
+          Showroom: <span class="store-dynamic-address">Gandhipuram, Coimbatore, Tamil Nadu</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- ==========================================================================
+         B. Hero Section (Split Layout, Staggered Reveal, Gentle Image Zoom)
+         ========================================================================== -->
+    <section class="hero-section" id="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <!-- Left: Editorial Content -->
+          <div class="hero-content">
+            <div class="eyebrow-label hero-stagger-1">
+              <span class="eyebrow-dot"></span>
+              <span>MOBILE WORLD · SALES &amp; SERVICE</span>
+            </div>
+
+            <h1 class="hero-headline hero-stagger-2">
+              Your Next Phone<br />
+              <span class="highlight">Starts Here.</span>
+              <span class="script-signature">Stay Connected</span>
+            </h1>
+
+            <p class="hero-copy hero-stagger-3">
+              Discover mobile phones, everyday accessories, and helpful service — all at Mobile World.
+            </p>
+
+            <div class="hero-ctas hero-stagger-4">
+              <a href="https://mobile-world-5p9j.onrender.com/signin" target="_blank" rel="noopener noreferrer" class="btn btn-primary" id="heroPrimaryCta">
+                <span>Explore Our Store</span>
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+              <a href="#services" class="btn btn-secondary" id="heroSecondaryCta">
+                <span>Discover Our Services</span>
+              </a>
+            </div>
+
+            <!-- Three Compact Verified Indicators -->
+            <div class="hero-indicators hero-stagger-4">
+              <div class="indicator-item">
+                <svg class="indicator-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                  <line x1="12" y1="18" x2="12.01" y2="18"></line>
+                </svg>
+                <span>Multi-Brand Smartphone Sales</span>
+              </div>
+              <div class="indicator-item">
+                <svg class="indicator-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                </svg>
+                <span>Verified Accessories</span>
+              </div>
+              <div class="indicator-item">
+                <svg class="indicator-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                </svg>
+                <span>Express Service Support</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Editorial Image Composition with Sage Decorative Shape -->
+          <div class="hero-visual-wrap hero-stagger-2">
+            <!-- Restrained Sage Green Decorative Shape -->
+            <div class="hero-sage-accent-shape"></div>
+
+            <div class="hero-image-frame">
+              <img src="assets/images/shop/storefront_night.jpg" alt="Mobile World Sales and Service Physical Storefront at Night" class="hero-photo" />
+              <div class="hero-image-badge">
+                <span class="eyebrow-dot"></span>
+                <span>Illuminated Showroom · Gandhipuram</span>
+              </div>
+            </div>
+
+            <!-- Floating Editorial Badge -->
+            <div class="hero-floating-badge">
+              <img src="assets/images/shop/emblem_logo.png" alt="Mobile World Official Emblem" class="floating-emblem-thumb" />
+              <div class="floating-meta">
+                <span class="floating-label">Official Store</span>
+                <span class="floating-title">Mobile World</span>
+                <span class="floating-desc">Sales · Accessories · Service</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Brand Strip (Confirmed Showroom Brands From Real Signboard)
+         ========================================================================== -->
+    <section class="brand-strip-section" aria-label="Featured Brands">
+      <div class="container">
+        <div class="brand-strip-inner">
+          <div class="brand-strip-title">
+            <span class="eyebrow-dot"></span>
+            <span>Showroom Brands Available</span>
+          </div>
+          <div class="brand-tags-wrap">
+            <span class="brand-tag-item">realme</span>
+            <span class="brand-tag-item">oppo</span>
+            <span class="brand-tag-item">vivo</span>
+            <span class="brand-tag-item">mi (xiaomi)</span>
+            <span class="brand-tag-item">ONEPLUS</span>
+            <span class="brand-tag-item">boAt</span>
+            <span class="brand-tag-item">MIVI</span>
+            <span class="brand-tag-item">LAVA</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         C. Featured Categories ("Find What You Need.")
+         ========================================================================== -->
+    <section class="categories-section section-padding" id="categories">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header-wrap reveal-fade-up">
+          <div class="eyebrow-label">
+            <span class="eyebrow-dot"></span>
+            <span>PRODUCT CATEGORIES</span>
+          </div>
+          <h2 class="editorial-heading">
+            Find What You Need.
+          </h2>
+          <p class="editorial-subtext">
+            Explore authentic smartphones, high-durability fast chargers, shatter-proof glass, and acoustic essentials.
+          </p>
+        </div>
+
+        <!-- 5 Category Cards (Lift Slightly on Hover, Subtle Image Zoom) -->
+        <div class="categories-grid">
+          <!-- 1. Smartphones (Featured Wide Card) -->
+          <article class="category-card card-featured reveal-fade-up" id="catSmartphones">
+            <div class="category-img-wrap">
+              <img src="assets/images/products/phone_iphone.jpg" alt="Multi-brand 5G Smartphones at Mobile World" class="category-img" loading="lazy" />
+              <span class="category-tag-pill">Multi-Brand Selection</span>
+            </div>
+            <div class="category-info">
+              <div class="category-copy">
+                <h3 class="category-title">Smartphones</h3>
+                <p class="category-desc">
+                  Brand-new sealed devices from Realme, OnePlus, Vivo, Oppo, Xiaomi/Mi, and Apple with official manufacturer warranty.
+                </p>
+              </div>
+              <div>
+                <a href="https://mobile-world-5p9j.onrender.com/signin" target="_blank" rel="noopener noreferrer" class="category-arrow-link">
+                  <span>Browse Available Models</span>
+                  <svg class="category-arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 2. Mobile Accessories -->
+          <article class="category-card card-accessories reveal-fade-up" id="catAccessories">
+            <div class="category-img-wrap">
+              <img src="assets/images/products/case.jpg" alt="Mobile Protection Cases and Covers" class="category-img" loading="lazy" />
+              <span class="category-tag-pill">Essential Care</span>
+            </div>
+            <div class="category-info">
+              <div class="category-copy">
+                <h3 class="category-title">Mobile Accessories</h3>
+                <p class="category-desc">
+                  9H shatter-proof tempered glass, shock-absorbing bumper covers, matte protective cases, and camera guards.
+                </p>
+              </div>
+              <div>
+                <a href="https://mobile-world-5p9j.onrender.com/signin" target="_blank" rel="noopener noreferrer" class="category-arrow-link">
+                  <span>Explore Accessories</span>
+                  <svg class="category-arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 3. Chargers & Cables -->
+          <article class="category-card card-col3 reveal-fade-up" id="catChargers">
+            <div class="category-img-wrap">
+              <img src="assets/images/products/charger.jpg" alt="High Wattage Fast Chargers and Adapters" class="category-img" loading="lazy" />
+              <span class="category-tag-pill">Fast Power</span>
+            </div>
+            <div class="category-info">
+              <div class="category-copy">
+                <h3 class="category-title">Chargers &amp; Cables</h3>
+                <p class="category-desc">
+                  High-durability fast chargers, GaN adapters, rugged braided Type-C &amp; Lightning cables with surge protection.
+                </p>
+              </div>
+              <div>
+                <a href="https://mobile-world-5p9j.onrender.com/signin" target="_blank" rel="noopener noreferrer" class="category-arrow-link">
+                  <span>View Power Gear</span>
+                  <svg class="category-arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 4. Audio & Earphones -->
+          <article class="category-card card-col3 reveal-fade-up" id="catAudio">
+            <div class="category-img-wrap">
+              <img src="assets/images/products/earbuds.jpg" alt="True Wireless Earbuds and Audio" class="category-img" loading="lazy" />
+              <span class="category-tag-pill">Pure Sound</span>
+            </div>
+            <div class="category-info">
+              <div class="category-copy">
+                <h3 class="category-title">Audio &amp; Earphones</h3>
+                <p class="category-desc">
+                  True Wireless Stereo earbuds, magnetic neckbands from boAt and Mivi, and wired earphones with deep bass and ENC calling.
+                </p>
+              </div>
+              <div>
+                <a href="https://mobile-world-5p9j.onrender.com/signin" target="_blank" rel="noopener noreferrer" class="category-arrow-link">
+                  <span>Browse Audio Gear</span>
+                  <svg class="category-arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 5. Smart Devices -->
+          <article class="category-card card-col3 reveal-fade-up" id="catSmartDevices">
+            <div class="category-img-wrap">
+              <img src="assets/images/products/smartwatch.jpg" alt="Smartwatches and Wearable Devices" class="category-img" loading="lazy" />
+              <span class="category-tag-pill">Connected Life</span>
+            </div>
+            <div class="category-info">
+              <div class="category-copy">
+                <h3 class="category-title">Smart Devices</h3>
+                <p class="category-desc">
+                  Bluetooth calling smartwatches with HD AMOLED screens, fitness tracking, and high-capacity portable power banks.
+                </p>
+              </div>
+              <div>
+                <a href="https://mobile-world-5p9j.onrender.com/signin" target="_blank" rel="noopener noreferrer" class="category-arrow-link">
+                  <span>Explore Smart Tech</span>
+                  <svg class="category-arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         D. About Mobile World ("More Than Just a Mobile Store.")
+         ========================================================================== -->
+    <section class="about-section section-padding" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <!-- Text Column -->
+          <div class="about-text-col reveal-fade-up">
+            <div class="eyebrow-label">
+              <span class="eyebrow-dot"></span>
+              <span>ABOUT MOBILE WORLD</span>
+            </div>
+            <h2 class="editorial-heading">
+              More Than Just a<br />Mobile Store.
+            </h2>
+            <p class="about-body-text">
+              Mobile World Sales &amp; Service brings together authentic multi-brand smartphones, verified accessories, and honest in-person care in Gandhipuram, Tamil Nadu.
+            </p>
+            <p class="about-body-text" style="font-size: 0.95rem;">
+              We believe in transparent product recommendations and genuine sealed devices without sales pressure. Whether you are finding your next 5G phone or needing fast setup help, our showroom is built around your confidence.
+            </p>
+            <div class="about-actions">
+              <a href="#store" class="about-story-link">
+                <span>Discover Our Showroom</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" style="width: 16px; height: 16px;">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Authentic Shop Photography Stack -->
+          <div class="about-visual-stack reveal-fade-up">
+            <div class="about-main-photo-frame">
+              <img src="assets/images/shop/showroom_customers.jpg" alt="Customers at Mobile World Showroom Counter" class="about-main-photo" loading="lazy" />
+            </div>
+            <div class="about-secondary-photo-frame">
+              <img src="assets/images/shop/service_desk.jpg" alt="Mobile World Fast Premium Service Desk and Counter" class="about-secondary-photo" loading="lazy" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         E. Why Choose Mobile World? (Clean Benefit Section with Minimal Icons)
+         ========================================================================== -->
+    <section class="why-section section-padding" id="why">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header-wrap reveal-fade-up">
+          <div class="eyebrow-label">
+            <span class="eyebrow-dot"></span>
+            <span>STORE PRINCIPLES</span>
+          </div>
+          <h2 class="editorial-heading">
+            Why Choose Mobile World?
+          </h2>
+          <p class="editorial-subtext">
+            Rooted in transparent advice, authentic products, and attentive local care.
+          </p>
+        </div>
+
+        <!-- 4 Clean Benefit Cards -->
+        <div class="why-grid">
+          <!-- 1. Budgets -->
+          <div class="why-card reveal-fade-up">
+            <div class="why-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="12" y1="1" x2="12" y2="23"></line>
+                <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+              </svg>
+            </div>
+            <div class="why-content">
+              <h3 class="why-card-title">Products for Different Budgets</h3>
+              <p class="why-card-desc">
+                From value-packed entry smartphones to flagship models, our stock is curated so every customer finds an optimal handset with brand warranty intact.
+              </p>
+            </div>
+          </div>
+
+          <!-- 2. Essentials -->
+          <div class="why-card reveal-fade-up">
+            <div class="why-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                <line x1="12" y1="22.08" x2="12" y2="12"></line>
+              </svg>
+            </div>
+            <div class="why-content">
+              <h3 class="why-card-title">Everyday Mobile Essentials</h3>
+              <p class="why-card-desc">
+                Always-stocked fast GaN chargers, durable braided cables, 9H tempered protectors, and protective cases compatible with all major devices.
+              </p>
+            </div>
+          </div>
+
+          <!-- 3. Customer Support -->
+          <div class="why-card reveal-fade-up">
+            <div class="why-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <div class="why-content">
+              <h3 class="why-card-title">Helpful Customer Support</h3>
+              <p class="why-card-desc">
+                Our staff assists with initial device setup, contact transfers, WhatsApp backup, and candid recommendations without sales pressure.
+              </p>
+            </div>
+          </div>
+
+          <!-- 4. Convenient Shopping -->
+          <div class="why-card reveal-fade-up">
+            <div class="why-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+            </div>
+            <div class="why-content">
+              <h3 class="why-card-title">Convenient Shopping</h3>
+              <p class="why-card-desc">
+                Visit our physical showroom in Gandhipuram, or order online with guaranteed Cash on Delivery (COD) across Tamil Nadu. Inspect before paying.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         F. Services Section ("Complete Mobile Solutions." — Dark Forest Green #102A25)
+         ========================================================================== -->
+    <section class="services-section section-padding" id="services">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header-wrap reveal-fade-up">
+          <div class="eyebrow-label dark">
+            <span class="eyebrow-dot"></span>
+            <span>SERVICE CAPABILITIES</span>
+          </div>
+          <h2 class="editorial-heading" style="color: #FFFFFF;">
+            Complete Mobile Solutions.
+          </h2>
+          <p class="editorial-subtext" style="color: var(--color-dark-text-secondary);">
+            Restrained in-store retail, protection styling, and express diagnostic support.
+          </p>
+        </div>
+
+        <!-- 4 Services Cards -->
+        <div class="services-grid">
+          <!-- Service 1: Phone Sales -->
+          <article class="service-card reveal-fade-up">
+            <div class="service-img-frame">
+              <img src="assets/images/products/phone_samsung.jpg" alt="Mobile Phone Sales at Mobile World" class="service-img" loading="lazy" />
+            </div>
+            <div class="service-content">
+              <div class="service-copy">
+                <h3 class="service-title">Mobile Phone Sales</h3>
+                <p class="service-desc">
+                  Factory-sealed multi-brand smartphones with legitimate manufacturer warranty, GST invoicing, and live showroom unboxing.
+                </p>
+              </div>
+              <div class="service-badge">
+                <span>✓ Multi-brand Available</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Service 2: Accessories -->
+          <article class="service-card reveal-fade-up">
+            <div class="service-img-frame">
+              <img src="assets/images/shop/accessories_shelves.jpg" alt="Accessories and Screen Protection" class="service-img" loading="lazy" />
+            </div>
+            <div class="service-content">
+              <div class="service-copy">
+                <h3 class="service-title">Accessories</h3>
+                <p class="service-desc">
+                  Bubble-free tempered glass installation, heavy-duty shockproof case fitting, and certified fast charging accessory pairing.
+                </p>
+              </div>
+              <div class="service-badge">
+                <span>✓ On-the-spot Application</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Service 3: Device Setup Assistance -->
+          <article class="service-card reveal-fade-up">
+            <div class="service-img-frame">
+              <img src="assets/images/shop/service_desk.jpg" alt="Device Setup and Support Counter" class="service-img" loading="lazy" />
+            </div>
+            <div class="service-content">
+              <div class="service-copy">
+                <h3 class="service-title">Device Setup Assistance</h3>
+                <p class="service-desc">
+                  Complimentary setup help for new buyers: SIM card insertion, contact migration, Google/Apple ID sign-in, and WhatsApp restore.
+                </p>
+              </div>
+              <div class="service-badge">
+                <span>✓ Friendly Store Guidance</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Service 4: Troubleshooting Support -->
+          <article class="service-card reveal-fade-up">
+            <div class="service-img-frame">
+              <img src="assets/images/shop/outdoor_kiosk.jpg" alt="Mobile World Quick Service Display Desk" class="service-img" loading="lazy" />
+            </div>
+            <div class="service-content">
+              <div class="service-copy">
+                <h3 class="service-title">Troubleshooting Support</h3>
+                <p class="service-desc">
+                  In-store display inspection, battery health assessment, charging port debris cleaning, and express diagnostic guidance.
+                </p>
+              </div>
+              <div class="service-badge">
+                <span>✓ 1-Hour Spot Service</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         G. Visit Our Physical Store ("See Us in Person.")
+         ========================================================================== -->
+    <section class="store-section section-padding" id="store">
+      <div class="container">
+        <div class="store-split-grid">
+          <!-- Authentic Store Photography Gallery -->
+          <div class="store-gallery-col reveal-fade-up">
+            <div class="store-main-photo-frame">
+              <img src="assets/images/shop/storefront_night.jpg" alt="Mobile World Physical Showroom Gandhipuram" class="store-main-photo" loading="lazy" />
+              <div class="store-photo-tag">
+                <span class="eyebrow-dot"></span>
+                <span>Mobile World Showroom · Gandhipuram</span>
+              </div>
+            </div>
+
+            <!-- Sub-gallery with other authentic uploaded photos -->
+            <div class="store-sub-gallery">
+              <div class="store-sub-frame">
+                <img src="assets/images/shop/showroom_customers.jpg" alt="Mobile World Customer Counter" class="store-sub-img" loading="lazy" />
+                <span class="store-sub-label">Showroom Counter</span>
+              </div>
+              <div class="store-sub-frame">
+                <img src="assets/images/shop/service_desk.jpg" alt="Mobile World Fast Premium Service Desk" class="store-sub-img" loading="lazy" />
+                <span class="store-sub-label">Service Counter</span>
+              </div>
+              <div class="store-sub-frame">
+                <img src="assets/images/shop/outdoor_kiosk.jpg" alt="Mobile World Quick Service Kiosk" class="store-sub-img" loading="lazy" />
+                <span class="store-sub-label">Quick Service</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Store Contact & Verified Details Card -->
+          <div class="store-card reveal-fade-up">
+            <div class="store-card-header">
+              <div class="eyebrow-label" style="margin-bottom: 0.25rem;">
+                <span class="eyebrow-dot"></span>
+                <span>PHYSICAL STORE</span>
+              </div>
+              <h2 class="editorial-heading" style="font-size: 2.1rem;">
+                See Us in Person.
+              </h2>
+              <div class="store-name">
+                Mobile World Sales &amp; Service
+              </div>
+              <p style="font-size: 0.925rem; color: var(--color-text-secondary); line-height: 1.55;">
+                Visit our physical showroom to touch, compare, and test smartphones and accessories with guidance from our friendly team.
+              </p>
+            </div>
+
+            <div class="store-info-list">
+              <!-- Location Address -->
+              <div class="store-info-item">
+                <div class="store-info-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div class="store-info-content">
+                  <span class="store-info-label">Showroom Address</span>
+                  <span class="store-info-val store-dynamic-address">Gandhipuram, Coimbatore, Tamil Nadu</span>
+                </div>
+              </div>
+
+              <!-- Opening Hours -->
+              <div class="store-info-item">
+                <div class="store-info-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                  </svg>
+                </div>
+                <div class="store-info-content">
+                  <span class="store-info-label">Operating Hours</span>
+                  <span class="store-info-val store-dynamic-hours">9:30 AM – 9:30 PM (All 7 Days)</span>
+                </div>
+              </div>
+
+              <!-- Phone & WhatsApp Contact (From Signboard) -->
+              <div class="store-info-item">
+                <div class="store-info-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                  </svg>
+                </div>
+                <div class="store-info-content">
+                  <span class="store-info-label">Shop Contact</span>
+                  <span class="store-info-val store-dynamic-phone">+91 94453 03696</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="store-actions">
+              <a href="https://www.google.com/maps/search/?api=1&query=Mobile+World+Gandhipuram+Coimbatore" target="_blank" rel="noopener noreferrer" class="btn btn-primary store-dynamic-maps-link" id="btnGetDirections">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="width: 17px; height: 17px;" aria-hidden="true">
+                  <polygon points="3 11 22 2 13 21 11 13 3 11"></polygon>
+                </svg>
+                <span>Get Directions</span>
+              </a>
+
+              <a href="tel:+919445303696" class="btn btn-secondary store-dynamic-phone-link" id="btnCallStore">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="width: 17px; height: 17px;" aria-hidden="true">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+                <span>Contact Us</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         H. Online Shopping CTA (Forest-Green Banner #123F35)
+         ========================================================================== -->
+    <section class="online-cta-section section-padding" id="shop-cta">
+      <div class="cta-sage-glow"></div>
+      <div class="container">
+        <div class="cta-content-box reveal-fade-up">
+          <div class="eyebrow-label dark">
+            <span class="eyebrow-dot"></span>
+            <span>EXISTING ONLINE STOREFRONT</span>
+          </div>
+
+          <h2 class="cta-headline">
+            Your Next Phone Is Just a Click Away.
+          </h2>
+
+          <p class="cta-supporting-text">
+            Explore our online store to discover mobile phones and accessories.
+          </p>
+
+          <div class="cta-buttons">
+            <a href="https://mobile-world-5p9j.onrender.com/signin" target="_blank" rel="noopener noreferrer" class="btn btn-sage" id="ctaFullStoreBtn">
+              <span>Explore Online Store →</span>
+            </a>
+            <a href="#store" class="btn btn-ghost-dark" id="ctaVisitShowroomBtn">
+              <span>Visit Showroom</span>
+            </a>
+          </div>
+
+          <div class="cta-badges">
+            <div class="cta-badge-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+              <span>100% Genuine Box-Sealed</span>
+            </div>
+            <div class="cta-badge-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 14 14"></polyline>
+              </svg>
+              <span>Open 7 Days a Week</span>
+            </div>
+            <div class="cta-badge-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect>
+                <line x1="1" y1="10" x2="23" y2="10"></line>
+              </svg>
+              <span>Cash on Delivery Guaranteed</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       I. Footer (Dark Forest-Green Background: #102A25)
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1: Brand & Intro -->
+        <div class="footer-brand-col">
+          <div class="footer-brand-row">
+            <img src="assets/images/shop/emblem_logo.png" alt="Mobile World Logo" class="footer-emblem" width="44" height="44" />
+            <div>
+              <span class="footer-brand-name">Mobile World</span>
+              <div style="font-size: 0.72rem; color: var(--color-accent-sage); font-weight: 700;">Sales &amp; Service</div>
+            </div>
+          </div>
+          <p class="footer-desc">
+            Your destination for multi-brand smartphones, verified accessories, and friendly neighborhood service in Tamil Nadu.
+          </p>
+          <div style="font-size: 0.78rem; color: var(--color-dark-text-secondary);">
+            Showroom Hours: <span class="store-dynamic-hours">9:30 AM – 9:30 PM (All 7 Days)</span>
+          </div>
+        </div>
+
+        <!-- Col 2: Navigation Links -->
+        <div class="footer-col">
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About Mobile World</a></li>
+            <li><a href="#categories">Featured Products</a></li>
+            <li><a href="#services">Services &amp; Support</a></li>
+            <li><a href="#store">Visit Our Store</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Categories -->
+        <div class="footer-col">
+          <h4 class="footer-col-title">Categories</h4>
+          <ul class="footer-links">
+            <li><a href="#catSmartphones">Smartphones</a></li>
+            <li><a href="#catAccessories">Mobile Accessories</a></li>
+            <li><a href="#catChargers">Chargers &amp; Cables</a></li>
+            <li><a href="#catAudio">Audio &amp; Earphones</a></li>
+            <li><a href="#catSmartDevices">Smart Devices</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Store Contact Placeholders -->
+        <div class="footer-col">
+          <h4 class="footer-col-title">Store Location</h4>
+          <div class="footer-contact-block">
+            <div class="footer-contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <span><span class="store-dynamic-address">Gandhipuram, Coimbatore, Tamil Nadu</span></span>
+            </div>
+            <div class="footer-contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+              <span>Call: <a href="tel:+919445303696" class="store-dynamic-phone-link store-dynamic-phone" style="color: var(--color-accent-sage); font-weight: 700;">+91 94453 03696</a></span>
+            </div>
+          </div>
+          <div style="margin-top: 1rem;">
+            <a href="https://mobile-world-5p9j.onrender.com/signin" target="_blank" rel="noopener noreferrer" class="btn btn-sage btn-sm" style="width: 100%;" id="footerStoreBtn">
+              <span>Visit Online Store</span>
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Bottom Row -->
+      <div class="footer-bottom">
+        <div>
+          &copy; <span id="currentYear">2026</span> Mobile World Sales &amp; Service. All rights reserved.
+        </div>
+        <div class="footer-bottom-links">
+          <span>Physical Showroom &amp; Online Retail</span>
+          <a href="https://mobile-world-5p9j.onrender.com/signin" target="_blank" rel="noopener noreferrer" style="color: var(--color-accent-sage); text-decoration: underline;">Existing Ecommerce Portal</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       Store Details Customizer (Interactive Feature for Owner & Reviewers)
+       ========================================================================== -->
+  <button class="customizer-trigger-btn" id="customizerOpenBtn" aria-label="Open Store Information Customizer">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path>
+      <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path>
+    </svg>
+    <span>Customize Store Info</span>
+  </button>
+
+  <div class="customizer-modal" id="customizerModal" aria-hidden="true" role="dialog" aria-labelledby="customizerTitle">
+    <div class="customizer-card">
+      <div class="customizer-header">
+        <h3 id="customizerTitle">Customize Store Details</h3>
+        <button class="customizer-close-btn" id="customizerCloseBtn" aria-label="Close dialog">&times;</button>
+      </div>
+      <p style="font-size: 0.85rem; color: var(--color-text-secondary); margin-bottom: 1.25rem;">
+        Easily update physical shop details for owner verification. Changes will update instantly across the entire landing page and persist in your browser.
+      </p>
+
+      <form class="customizer-form" id="customizerForm">
+        <div class="customizer-field">
+          <label for="inputStoreAddress">Showroom Address</label>
+          <input type="text" id="inputStoreAddress" placeholder="e.g. Gandhipuram, Coimbatore, Tamil Nadu" />
+        </div>
+
+        <div class="customizer-field">
+          <label for="inputStorePhone">Contact Phone Number</label>
+          <input type="text" id="inputStorePhone" placeholder="e.g. +91 94453 03696" />
+        </div>
+
+        <div class="customizer-field">
+          <label for="inputStoreHours">Operating Hours</label>
+          <input type="text" id="inputStoreHours" placeholder="e.g. 9:30 AM – 9:30 PM (All 7 Days)" />
+        </div>
+
+        <div class="customizer-actions">
+          <button type="button" class="btn btn-secondary btn-sm" id="customizerResetBtn">Reset Defaults</button>
+          <button type="button" class="btn btn-secondary btn-sm" id="customizerCancelBtn">Cancel</button>
+          <button type="submit" class="btn btn-primary btn-sm" id="customizerSaveBtn">Save Changes</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
